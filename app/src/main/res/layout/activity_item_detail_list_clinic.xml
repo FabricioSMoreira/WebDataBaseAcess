@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.ItemDetailListClinic">
+
+    <ImageView
+        android:id="@+id/img_detail_clinic_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_detail_clinic_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clinic Name"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:padding="5dp"/>
+
+    <ToggleButton
+        android:id="@+id/btn_detail_favorite_clinic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:textOn=""
+        android:textOff=""
+        android:background="@drawable/ic_favorite_border_red_60dp"/>
+
+</LinearLayout>

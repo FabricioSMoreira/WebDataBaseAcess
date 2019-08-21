@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WebDataBaseAcess</string>
+    <string name="without_favorite">No result</string>
 </resources>
